@@ -20,18 +20,27 @@ Unpack the two folders data/ and models/ to the root folder of the project.
 
 ## Training
 
+Training can be started with
+
+```
+python train.py
+```
+
+
 Unfortunately, due to licensing it is not possible to provide any data from Human3.6M. However, for training you only need 2D detections from your favorite 2D detector. Our Alphapose detections can be found in the archive above.
 
 ## Citation
 Please cite the paper in your publications if it helps your research:
 
-@inproceedings{WanRud2021a,
+```
+@inproceedings{Wandt2021Canonpose,
   author = {Wandt, Bastian and Rudolph, Marco and Zell, Petrissa and Rhodin, Helge and Rosenhahn, Bodo},
   booktitle = {Computer Vision and Pattern Recognition (CVPR)},
   month = jun,
   title = {CanonPose: Self-Supervised Monocular 3D Human Pose Estimation in the Wild},
   year = 2021
 }
+```
 
 Links to the paper:
 
